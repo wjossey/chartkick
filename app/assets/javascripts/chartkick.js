@@ -287,7 +287,13 @@
       };
 
       var setMin = function (options, min) {
-        options.yAxis.min = min;
+        if( Object.prototype.toString.call( options.yAxis ) === '[object Array]' ) {
+          options.yAxis.forEach(function(axis) {
+            axis.min = min
+          });
+        } else {
+          options.yAxis.min = min;
+        }        
       };
 
       var setMax = function (options, max) {
