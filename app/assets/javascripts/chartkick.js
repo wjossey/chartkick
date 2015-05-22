@@ -258,7 +258,7 @@
               fontSize: "12px"
             }
           },
-          offset: 70
+          opposite: true
         }],
         title: {
           text: null
