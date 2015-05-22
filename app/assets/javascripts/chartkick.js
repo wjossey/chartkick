@@ -257,7 +257,8 @@
             style: {
               fontSize: "12px"
             }
-          }
+          },
+          offset: 70
         }],
         title: {
           text: null
