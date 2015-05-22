@@ -240,7 +240,7 @@
             }
           }
         },
-        yAxis: {
+        yAxis: [{
           title: {
             text: null
           },
@@ -249,7 +249,16 @@
               fontSize: "12px"
             }
           }
-        },
+        }, {
+          title: {
+            text: null
+          },
+          labels: {
+            style: {
+              fontSize: "12px"
+            }
+          }
+        }],
         title: {
           text: null
         },
